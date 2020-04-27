@@ -1,0 +1,70 @@
+
+NumNodes 5
+MaxTran 5 
+diff 4
+
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5000/totaltime
+{"avg_time_mine":4.108133518695832,"blocks_mined":20,"time_transactions":394.31953978538513}  1.268
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5001/totaltime
+{"avg_time_mine":3.6316373507181803,"blocks_mined":15,"time_transactions":395.7658784389496} 1.263
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5002/totaltime
+{"avg_time_mine":4.617801316579183,"blocks_mined":15,"time_transactions":393.1624267101288} 1.271
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5003/totaltime
+{"avg_time_mine":3.46596182020087,"blocks_mined":19,"time_transactions":395.7446184158325} 1.263
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5004/totaltime
+{"avg_time_mine":4.1275438379358365,"blocks_mined":27,"time_transactions":393.1462721824646} 1.271
+
+NumNodes 5
+MaxTran 1 
+diff 4
+
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5000/totaltime
+{"avg_time_mine":2.613550859716441,"blocks_mined":223,"time_transactions":5278.4534685611725}0.094
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5001/totaltime
+{"avg_time_mine":2.66234065200876,"blocks_mined":217,"time_transactions":5281.049362421036}0.094
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5002/totaltime
+{"avg_time_mine":1.780616510998119,"blocks_mined":242,"time_transactions":5268.32871222496}0.094
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5003/totaltime
+{"avg_time_mine":2.0274076786908237,"blocks_mined":22,"time_transactions":5269.432350635529}0.094
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5004/totaltime
+{"avg_time_mine":1.9643631317246129,"blocks_mined":213,"time_transactions":5269.446608304977}0.094
+
+NumNodes 5
+MaxTran 10 
+diff 4
+
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5000/totaltime
+{"avg_time_mine":6.141982285181681,"blocks_mined":15,"time_transactions":325.866709294675945}1.534
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5001/totaltime
+{"avg_time_mine":7.430808816637311,"blocks_mined":7,"time_transactions":324.81377029418945}1.539
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5002/totaltime
+{"avg_time_mine":6.975574016571045,"blocks_mined":6,"time_transactions":325.93092679977417}1.534
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5003/totaltime
+{"avg_time_mine":7.408129739761352,"blocks_mined":10,"time_transactions":324.812579870224}1.539
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5004/totaltime
+{"avg_time_mine":6.2687126530541315,"blocks_mined":9,"time_transactions":324.9122379450224}1.538
+
+NumNodes 10
+MaxTran 5 
+diff 4
+
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5000/totaltime
+{"avg_time_mine":3.676215966542562,"blocks_mined":18,"time_transactions":1304.2240340709686}
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5001/totaltime
+{"avg_time_mine":10.582963829455169,"blocks_mined":23,"time_transactions":1333.4682443141937}
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5002/totaltime
+{"avg_time_mine":3.17708341891949,"blocks_mined":13,"time_transactions":1326.8251178264618}
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5003/totaltime
+{"avg_time_mine":3.611652975990659,"blocks_mined":21,"time_transactions":1266.9979510307312}
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5004/totaltime
+{"avg_time_mine":3.1280648027147566,"blocks_mined":28,"time_transactions":1239.71279835701}
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5005/totaltime
+{"avg_time_mine":4.056594581604004,"blocks_mined":25,"time_transactions":1317.3169112205505}
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5006/totaltime
+{"avg_time_mine":4.0584472560882565,"blocks_mined":25,"time_transactions":1297.2617774009705}
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5007/totaltime
+{"avg_time_mine":2.466491000992911,"blocks_mined":14,"time_transactions":1266.7087709903717}
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5008/totaltime
+{"avg_time_mine":2.925868413027595,"blocks_mined":17,"time_transactions":1337.2177646160126}
+lyber@lyber-ThinkPad-T480:~/noobcash$ curl http://localhost:5009/totaltime
+{"avg_time_mine":3.3563328924633207,"blocks_mined":21,"time_transactions":1333.494835615158}
