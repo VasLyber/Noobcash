@@ -1,2 +1,1 @@
-#noobcash
-Distributed Project
+# Distributed Project
